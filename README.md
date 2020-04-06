@@ -1,5 +1,5 @@
 # puzzles-segmentation
-Python image segmentation and shape recognition code example.\
+Python image segmentation and shape recognition code example.
 
 Input image: photo with puzzles on motley background.\
 Task: detect puzzles and output the number of bays and peninsulas (check report).
