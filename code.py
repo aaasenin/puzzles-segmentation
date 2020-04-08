@@ -193,10 +193,10 @@ for comp_idx in np.unique(markers):
         
         text_x, text_y, text_w, text_h = cv2.boundingRect(bin_mask)
         image = cv2.putText(image, 
-                    train_answers[curr_ans - 1], 
-                    (text_x + text_w // 2 - 75, text_y + text_h // 2), 
-                    cv2.FONT_HERSHEY_SIMPLEX, 
-                    2, (255, 255, 255), thickness=10)
+                            train_answers[curr_ans - 1], 
+                            (text_x + text_w // 2 - 75, text_y + text_h // 2), 
+                            cv2.FONT_HERSHEY_SIMPLEX, 
+                            2, (255, 255, 255), thickness=10)
         image = cv2.rectangle(image, 
                               (text_x, text_y), (text_x + text_w, text_y + text_h), 
                               (255, 255, 255), thickness=8) 
